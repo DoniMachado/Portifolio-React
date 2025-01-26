@@ -1,0 +1,22 @@
+#area-contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#area-contatos-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#area-contatos-list i {
+  font-size: 2em;
+}
+
+#area-contatos-list p {
+  font-weight: bolder;
+}

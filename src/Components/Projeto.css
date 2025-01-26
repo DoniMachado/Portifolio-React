@@ -1,0 +1,22 @@
+#card-projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#card-projeto img {
+  width: 200px;
+}
+
+#card-projeto p {
+  text-align: justify;
+}
+
+@media (min-width: 600px) {
+  #card-projeto {
+    width: 30%;
+  }
+}

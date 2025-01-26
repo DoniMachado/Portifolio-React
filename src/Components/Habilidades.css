@@ -1,0 +1,24 @@
+#area-habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#area-habilidades-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#area-habilidades-list i {
+  font-size: 100px;
+}
+
+@media (min-width: 800px) {
+  #area-habilidades-list {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
